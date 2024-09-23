@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: data-collection-bot
+  datasource:
+    url: jdbc:postgresql://localhost:5432/samara_dentistry_collection
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+bot:
+  token: "Ваш токен"
+  name: "ЦСМК - Стоматология"
